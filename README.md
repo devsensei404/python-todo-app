@@ -1,4 +1,4 @@
-📝 Todo App
+Todo App
 
 A lightweight to-do app I built with Python and Tkinter. You log in with a username, manage your tasks, and everything gets saved automatically — no database, no setup, just run it.
 
