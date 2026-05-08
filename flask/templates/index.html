@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Todo App - {{ username }}</title></head>
+<body>
+  <h2>Todo App — {{ username }}</h2>
+
+  <form action="/add" method="POST">
+    <input type="text" name="title" placeholder="New task..." required>
+    <button type="submit">Add</button>
+  </form>
+
+  <br>
+  <a href="/tasks?filter=all">All</a> |
+  <a href="/tasks?filter=pending">Pending</a> |
+  <a href="/tasks?filter=completed">Completed</a>
+
+  <ul>
+    {% for task in tasks %}
+    <li>
+      [{{ 'Done' if task.done else 'Pending' }}] {{ task.title }}
+      <a href="/toggle/{{ task.id }}">{{ 'Undo' if task.done else 'Mark Done' }}</a>
+      <a href="/delete/{{ task.id }}">Delete</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <br>
+  <a href="/logout">Logout</a>
+</body>
+</html>
