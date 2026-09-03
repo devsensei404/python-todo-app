@@ -1,6 +1,6 @@
 Todo App
 
-A lightweight to-do app I built with Python and Tkinter. You log in with a username, manage your tasks, and everything gets saved automatically — no database, no setup, just run it.
+A lightweight to-do app I built with Python and Tkinter. You log in with a username, manage your tasks, and everything gets saved automatically - no database, no setup, just run it.
 
 What it does
 • Each user gets their own separate task list
@@ -17,5 +17,5 @@ How to run it
 No pip installs needed — tkinter comes bundled with Python.
 
 Files
-• todo_app.py — the whole app lives here
-• tasks.json — gets created automatically the first time you save
+• todo_app.py -> the whole app lives here
+• tasks.json -> gets created automatically the first time you save
