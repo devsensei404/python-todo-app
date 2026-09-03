@@ -14,7 +14,7 @@ How to run it
 3. Run: python todo_app.py
 4. Enter any username when the popup appears and you're good to go
 
-No pip installs needed — tkinter comes bundled with Python.
+No pip installs needed - tkinter comes bundled with Python.
 
 Files
 • todo_app.py -> the whole app lives here
